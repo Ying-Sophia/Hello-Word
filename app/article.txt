@@ -1,0 +1,7 @@
+2.5.6 远程仓库的删除和重命名
+在新版Git 中可以用git remote rename 命令修改某个远程仓库的简短名称，比如想把
+pb 改成paul，可以这么运行：
+$ git remote rename pb paul
+$ git remote
+origin
+paul
